@@ -5,9 +5,11 @@
 
 <!-- HTML -->
 <h1>About us</h1>
+<p>
+  
+</p>
 
-
-<h2>FAQ</h2>
+<!-- <h2>FAQ</h2>
 <ul>
   <li>
     <details>
@@ -15,7 +17,7 @@
       Testing how the dropdown menu opens
     </details>
   </li>
-</ul>
+</ul> -->
 
 <!-- Styling -->
 <style>
