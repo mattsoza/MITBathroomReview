@@ -1,6 +1,6 @@
 <!-- Scripting :) -->
 <script>
-  import logo from '../assets/logoScreenRes.png';
+  import logo from '../assets/logo.svg';
 
   // Hardcore shuffle function that shuffles all letters
   //
