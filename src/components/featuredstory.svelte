@@ -1,8 +1,8 @@
 <!-- Scripting -->
 <script>
   // Props! :)
-  export let headline="Whoops! Looks like the web dev forgot to put in a headline"
-  export let subheadline="Is this the end of MIT Bathroom Review? Is this the end of this web devs career?"
+  export let headline="Don't forget to put a story!"
+  export let subheadline="Why would the web dev forget this?"
   export let author="Matthew 'The Web Dev' Soza"
   export let img = ''
   export let alt='a covered toilet'
@@ -23,6 +23,31 @@
 
 <!-- CSS -->
 <style>
+
+@media (max-width: 1000px) {
+  a {
+    flex-direction: column-reverse;
+  }
+
+  .textcontainer {
+    display: inline-block;
+    position: initial;
+    left: 0;
+    height: 20vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .textcontainer {
+    position: relative;
+    left: 5em;
+    width: 33.333%;
+  }
+
+  img {
+    width: calc(66.666% + 130px);
+  }
+}
 
 a {
   display: flex;
@@ -77,12 +102,9 @@ a:visited {
   width: 35vw;
   background-color: white;
   border: solid black 1px;
-  position: relative;
-  left: 5em;
 }
 
 img {
-  height: 30vw;
   background: #f3f2f1 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='3'%3E%3Ccircle cx='2.5' cy='2.5' r='.5' fill='%23242a49'/%3E%3C/svg%3E") repeat bottom right;
 }
 
