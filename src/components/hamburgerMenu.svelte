@@ -29,7 +29,7 @@
     -->
     <ul id="menu">
       {#each menuItems as item}
-      <a href={item}><li>{item.toLowerCase()}</li></a>
+      <a href={item.toLowerCase()}><li>{item}</li></a>
       {/each}
     </ul>
   </div>
