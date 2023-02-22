@@ -1,5 +1,11 @@
 <script>
     export let menuItems = Array()
+
+  function closemenu() {
+    const checkbox = document.getElementById('checktoggle')
+    console.log()
+    checkbox.checked = false;
+  }
 </script>
 
 <!-- Made by Erik Terwan -->
@@ -11,7 +17,7 @@
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
-    <input type="checkbox" />
+    <input id='checktoggle' type="checkbox" />
 
     <!--
     Some spans to act as a hamburger.
@@ -29,7 +35,7 @@
     -->
     <ul id="menu">
       {#each menuItems as item}
-      <a href={item.toLowerCase()}><li>{item}</li></a>
+      <a on:click={closemenu} href={item.toLowerCase()}><li>{item}</li></a>
       {/each}
     </ul>
   </div>
