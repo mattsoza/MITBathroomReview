@@ -5,11 +5,10 @@
 </script>
 
 <!-- HTML -->
-<h1>Welcome to MIT Bathroom Review</h1>
+<Featuredstory />
 
 
 
 <!-- Styling -->
 <style>
-
 </style>
