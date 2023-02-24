@@ -1,6 +1,6 @@
 <!-- Scripting -->
 <script>
-    import coveredToilet from '../../assets/coveredToilet.jpeg'
+    import coveredToilet from '../../assets/coveredToilet.png'
 </script>
   
 <!-- HTML -->

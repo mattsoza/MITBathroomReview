@@ -9,7 +9,7 @@
 
   // export headline;
 
-  import image from '../assets/coveredToilet.jpeg'
+  import image from '../assets/coveredToilet.png'
 </script>
 
 <!-- HTML -->
@@ -33,10 +33,18 @@
     flex-direction: column-reverse;
   }
 
+  .parent {
+    position: relative;
+    bottom: 2em;
+    box-sizing: border-box;
+  }
+
   .textcontainer {
-    display: block;
-    position: initial;
-    left: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    left: 5%;
   }
 }
 
@@ -45,13 +53,17 @@
   .parent {
     position:relative;
     left: 4em;
-    
     /* Something is going on with this CSS property. Having trouble figuring out how to center div in box */
     /* calc() and % both don't work very well. Needs to be fixed... */
     top: 50px;
     flex: 3;
     height:auto;
     box-sizing: border-box;
+  }
+
+  a {
+    position: relative;
+    right: 2em;
   }
 
   .textcontainer {
@@ -66,15 +78,17 @@
     flex: 7;
     width: calc(66.666% + 130px);
     box-sizing: border-box;
+    border: 1px solid black;
   }
 }
 
 a {
+  margin-top: 40px;
   display: flex;
-  /* align-items: center; */
   color: black;
   transition: box-shadow .25s;
   max-width: 1000px;
+  background: transparent;
 }
 
 a>div>div {
@@ -83,13 +97,13 @@ a>div>div {
 }
 
 a:hover>div>div {
-  box-shadow: 15px 15px;
+  box-shadow: 10px 10px 1em;
   transition: all .25s;
   scale: 1.1;
 }
 
 a:hover>img {
-  box-shadow: 10px 10px;
+  box-shadow: 5px 5px 1em;
   transition: box-shadow .25s;
 }
 
@@ -104,13 +118,13 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  line-height: 1.2em;;
+  line-height: 1.2em;
   font-weight: 500;
   color: #646464
 }
 
-a:hover>div>h1 {
-  color: rgba(255, 166, 0, 0.801);
+a:hover>div>div>h1 {
+  color: rgba(255, 166, 0, 1);
   transition: all .25s;
 }
 
@@ -119,13 +133,8 @@ a:visited {
 }
 
 .textcontainer {
-  padding: 1em 1em 0 1em;
+  padding: 1em 1em 1em 1em;
   background-color: white;
   border: solid black 1px;
 }
-
-img {
-  background: #f3f2f1 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='3'%3E%3Ccircle cx='2.5' cy='2.5' r='.5' fill='%23242a49'/%3E%3C/svg%3E") repeat bottom right;
-}
-
 </style>
