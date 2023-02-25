@@ -22,7 +22,7 @@ form {
   padding: 10px;
   border-radius: .2em;
   border: 1px solid black;
-  max-width: 600px;
+  max-width: 90vw;
   width: 600px;
 }
 
