@@ -83,7 +83,6 @@
 }
 
 a {
-  margin-top: 40px;
   display: flex;
   color: black;
   transition: box-shadow .25s;

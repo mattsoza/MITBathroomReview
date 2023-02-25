@@ -55,7 +55,7 @@ function fixOut(evt) {
     <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Map" href="map">Map</a>
     <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Contact" href="contact">Contact</a>
   </nav>
-  <h3>Democracy Dies in Doo-doo</h3>
+  <h3>Democracy Dies in Doo-Doo</h3>
 </header>
 <main>
   <slot />
@@ -86,6 +86,8 @@ header {
 	justify-content: center;
   background-color: rgb(250, 250, 250);
   box-shadow: 0px 10px 2em;
+
+  margin-bottom: 40px;
   
 	padding-top: 20px;
 	padding-bottom: 20px;
