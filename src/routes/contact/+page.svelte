@@ -5,7 +5,7 @@
 <form id="fs-frm" name="simple-contact-form" action="https://formspree.io/f/mayzorbr" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Name</label>
-    <input type="text" name="name" id="full-name" placeholder="Tommy Oulette" required >
+    <input type="text" name="name" id="full-name" placeholder="Tolu Oulette" required >
 
     <label for="email-address">Email Address</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required >
