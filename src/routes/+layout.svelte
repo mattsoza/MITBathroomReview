@@ -69,28 +69,27 @@ function fixOut(evt) {
 	margin: 0;
 
   background-color: #9CD1FF;
-  /* background-color: rgb(240, 240, 240); */
 }
 
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 	padding-left: 5vw;
   padding-right: 5vw;
-  /* padding-top: 5vw; */
 }
 
 header {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(250, 250, 250);
   box-shadow: 0px 10px 2em;
 
   margin-bottom: 40px;
   
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav {

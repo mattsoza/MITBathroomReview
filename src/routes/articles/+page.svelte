@@ -1,33 +1,35 @@
 <!-- Scripting -->
 <script>
-    import coveredToilet from '../../assets/coveredToilet.png'
+  import toilet from '../../assets/coveredToilet.png'
+	import ArticleCard from '../../components/articleCard.svelte';
 </script>
   
 <!-- HTML -->
-<h1>This page is under construction</h1>
-<img src="{coveredToilet}" width=700 alt="The inside of a stall bathroom. The toilet in the stall is covered up with a plastic black bag because the toilet is damaged or otherwise out of order." />
-
+<h2>You want articles? We got 'em.</h2> 
+<ul>
+  <li>
+    <ArticleCard 
+    headline='How did this work?'
+    subheadline='I guess Matthew is just a really good programmer'
+    image={ toilet } />
+  </li>
+</ul>
 
 <!-- Styling -->
 <style>
-  details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 0.5em 0.5em 0;
+  h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
   }
 
-  summary {
-    font-weight: bold;
-    margin: -0.5em -0.5em 0;
-    padding: 0.5em;
-  }
+  ul {
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  details[open] {
-    padding: 0.5em;
-  }
-
-  details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 0.5em;
+    /* Resizing properties */
+    width: 1200px;
+    max-width: 90vw
   }
 </style>
