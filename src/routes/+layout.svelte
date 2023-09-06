@@ -1,9 +1,9 @@
 <!-- Scripting :) -->
 <script>
 import '../app.postcss';
-import logo from '../assets/logo.svg';
-import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import HamburgerMenu from '../components/hamburgerMenu.svelte';
+import logo from '../assets/logoScreenRes.png';
+import HamburgerMenu from '../components/hamburgerMenu.svelte';
+import interFont from '../assets/Inter-VariableFont_slnt,wght.ttf';
 
 // Hardcore shuffle function that shuffles all letters
 // @ts-ignore
@@ -68,7 +68,7 @@ function fixOut(evt) {
 	font-style: normal;
 	margin: 0;
 
-  background-color: #9CD1FF;
+  background-color: #FFFDF9;
 }
 
 main {
