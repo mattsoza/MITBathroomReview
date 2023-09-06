@@ -15,7 +15,7 @@
 <!-- HTML -->
 <a href='articles/{headline}'>
   <!-- Placed a parent div because of weird CSS sizing rules I couldn't easily get around -->
-  <img src="{image}" alt="a covered toilet">
+  <img src="{image}" id ='featuredImage' alt="a covered toilet">
   <div class='textcontainer'>
     <p>Featured</p>
     <h1>{headline}</h1>
@@ -35,6 +35,10 @@
   img {
     max-width: 100%;
   }
+}
+
+a {
+  grid-column-end: span 2;
 }
 
 a > div > h1 {

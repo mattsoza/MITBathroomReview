@@ -1,65 +1,18 @@
 <!-- Scripting :) -->
 <script>
-import '../app.postcss';
-import logo from '../assets/logoScreenRes.png';
-import HamburgerMenu from '../components/hamburgerMenu.svelte';
-import interFont from '../assets/Inter-VariableFont_slnt,wght.ttf';
-
-// Hardcore shuffle function that shuffles all letters
-// @ts-ignore
-function shuffledIn(evt) {
-	let shuffled = '';
-	let str = evt.target.innerHTML;
-	let array = str.split('');
-	while (array.length > 0) {
-		let randomIndex = Math.floor(Math.random() * array.length);
-		shuffled += array[randomIndex];
-		array.splice(randomIndex, 1);
-	}
-	evt.target.innerHTML = shuffled;
-}
-
-// @ts-ignore
-function shuffleAdjacentLetters(evt) {
-	let str = evt.target.innerHTML;
-	if (str.length <= 2) {
-		return str;
-	}
-
-	const middleStartIndex = 1;
-	const middleEndIndex = str.length - 1;
-	const randomIndex =
-		Math.floor(Math.random() * (middleEndIndex - middleStartIndex)) + middleStartIndex;
-	const firstLetter = str[randomIndex];
-	const secondLetter = str[randomIndex + 1];
-
-	evt.target.innerHTML =
-		str.slice(0, randomIndex) + secondLetter + firstLetter + str.slice(randomIndex + 2);
-}
-
-// @ts-ignore
-function fixOut(evt) {
-	evt.target.innerHTML = evt.target.id;
-}
+import Bathroomheader from "../components/bathroomheader.svelte";
 </script>
 
+
+
 <!-- HTML of nav and stylesheet -->
-<div id='hamburgerMenu'>
-  <HamburgerMenu menuItems={['Articles', 'About', 'Map', 'Contact']}/>
-</div>
-<header>
-  <a id="home" href="/"><img id="logo" src={logo} alt="MIT bathroom review" /></a>
-  <nav class='desktop'>
-    <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Articles" href="articles">Articles</a>
-    <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="About" href="about">About</a>
-    <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Map" href="map">Map</a>
-    <a on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Contact" href="contact">Contact</a>
-  </nav>
-  <h3>Democracy Dies in Doo-Doo</h3>
-</header>
+<Bathroomheader />
 <main>
   <slot />
 </main>
+
+
+
 <!-- Styling -->
 <style>
 :global(body) {
@@ -69,6 +22,7 @@ function fixOut(evt) {
 	margin: 0;
 
   background-color: #FFFDF9;
+  background: linear-gradient(184deg, #FFFDF9 0 72%, #262626 72%);;
 }
 
 main {
@@ -78,6 +32,7 @@ main {
 	padding-left: 5vw;
   padding-right: 5vw;
 }
+
 
 header {
   display: flex;
