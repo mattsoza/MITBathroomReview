@@ -22,7 +22,6 @@ import Bathroomheader from "../components/bathroomheader.svelte";
 	margin: 0;
 
   background-color: #FFFDF9;
-  background: linear-gradient(184deg, #FFFDF9 0 72%, #262626 72%);;
 }
 
 main {
@@ -31,6 +30,8 @@ main {
   align-items: center;
 	padding-left: 5vw;
   padding-right: 5vw;
+
+  /* background: linear-gradient(184deg, #FFFDF9 0 62%, #262626 62%); */
 }
 
 

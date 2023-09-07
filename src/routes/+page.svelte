@@ -18,6 +18,10 @@
 
 <!-- Styling -->
 <style>
+body {
+  background: linear-gradient(184deg, #FFFDF9 0 72%, #262626 72%);;
+}
+
 .frontpagegrid {
   display: grid;
   max-width: 1000px;
