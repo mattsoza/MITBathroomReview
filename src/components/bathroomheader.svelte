@@ -52,10 +52,10 @@
     <h3>Democracy Dies in Doo-Doo</h3>
   </div>
   <nav class='desktop'>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Articles" href="articles">Articles</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="About" href="about">About</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Map" href="map">Map</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Contact" href="contact">Contact</a>
+    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Articles" href="/articles">Articles</a>
+    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="About" href="/about">About</a>
+    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Map" href="/map">Map</a>
+    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Contact" href="/contact">Contact</a>
   </nav>
 </header>
 <main>

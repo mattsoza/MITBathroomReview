@@ -1,18 +1,23 @@
 <!-- Scripting -->
 <script>
-  import toilet from '../../assets/coveredToilet.png'
-	import ArticleCard from '../../components/articleCard.svelte';
+  export let data;
 </script>
   
 <!-- HTML -->
 <h2>You want articles? We got 'em.</h2> 
+
+
 <ul>
-  <li>
-    <ArticleCard 
-    headline='How did this work?'
-    subheadline='I guess Matthew is just a really good programmer'
-    image={ toilet } />
-  </li>
+  {#each data.posts as post}
+    <li>
+      <h2>
+        <a href={post.path}>
+          {post.meta.title}
+        </a>
+      </h2>
+      Published {post.meta.date}
+    </li>
+  {/each}
 </ul>
 
 <!-- Styling -->
