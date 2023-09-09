@@ -92,7 +92,8 @@ nav {
 }
 
 img {
-  height: 7vw;
+  /* height: 7vw; */
+  width: min(180px, 38vw);
 }
 
 a.navlink {
