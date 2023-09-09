@@ -12,12 +12,21 @@
 
 <style>
   .donateBox {
+    display: flex;
+    flex-direction: column;
     background-color: #88B0BF;
     padding: 1em;
-    height: 70%;
+    min-height: 0;
   }
   p {
     margin-bottom: 1em;
     color: white;
+  }
+
+  button {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: .5ch 1ch .5ch 1ch;
   }
 </style>

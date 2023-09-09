@@ -45,6 +45,9 @@
   img {
     display: block;
     width: calc(33.33% - 20px);
+    height: 100%;
+    align-self: center;
+    flex-shrink: 0;
   }
 
   div.innerTextContainer {
