@@ -25,20 +25,9 @@
 
 <!-- CSS -->
 <style>
-
-/* Mobile/small-screen mode */
-@media (max-width: 1000px) {
-
-}
-/* Desktop mode */
-@media (min-width: 1000px) {
-  img {
-    max-width: 100%;
-  }
-}
-
 a {
-  grid-column-end: span 2;
+  flex: 7;
+  margin-right: 3rem;
 }
 
 a > div > h1 {
@@ -64,11 +53,26 @@ h1 {
   font-size: 2em;
   position: relative;
   bottom: 5px;
+  line-height: 1.2em;
 }
 
 h2 {
   font-style: italic;
   position: relative;
   bottom: 5px;
+}
+
+/* Desktop mode */
+@media (min-width: 1000px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Mobile/small-screen mode */
+@media (max-width: 800px) {
+  a {
+    margin-right: 0px;
+  }
 }
 </style>

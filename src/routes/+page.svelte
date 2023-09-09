@@ -5,7 +5,7 @@
 </script>
 
 <!-- HTML -->
-<div class='frontpagegrid'>
+<div class='frontpageflex'>
   <Featuredstory />
   <DonateButton />
 </div>
@@ -18,12 +18,18 @@
 
 <!-- Styling -->
 <style>
+@media (max-width: 800px) {
+  .frontpageflex {
+    flex-direction: column;
+  }
+}
 
-.frontpagegrid {
-  display: grid;
+
+.frontpageflex {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
   max-width: 1000px;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 4rem; 
   margin-bottom: 10ch;
 }
 

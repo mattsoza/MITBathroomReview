@@ -12,6 +12,7 @@
 
 <style>
   .donateBox {
+    flex: 3;
     display: flex;
     flex-direction: column;
     background-color: #88B0BF;
