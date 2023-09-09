@@ -1,6 +1,6 @@
 <script>
   export let data
-  const { title, date, image, content } = data
+  const { title, date, content } = data
 
   function dateFormat(date) {
     /**
@@ -21,7 +21,6 @@
 
 <article>
   <h1>{ title }</h1>
-  <img src="{ image }" alt="">
   <p>Published: {dateFormat(date)}</p>
   <svelte:component this={content} />
 </article>

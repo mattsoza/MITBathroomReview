@@ -31,7 +31,7 @@ main {
 	padding-left: 5vw;
   padding-right: 5vw;
 
-  /* background: linear-gradient(184deg, #FFFDF9 0 62%, #262626 62%); */
+  background: linear-gradient(184deg, #FFFDF9 0 62%, #262626 62%);
 }
 
 

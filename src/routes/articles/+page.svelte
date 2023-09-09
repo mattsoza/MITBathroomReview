@@ -1,22 +1,24 @@
 <!-- Scripting -->
 <script>
+	import { each } from 'svelte/internal';
+  import ArticleWideCard from '../../components/articleWideCard.svelte';
+
   export let data;
+  console.log(data.posts)
 </script>
   
 <!-- HTML -->
 <h2>You want articles? We got 'em.</h2> 
 
-
 <ul>
   {#each data.posts as post}
-    <li>
-      <h2>
-        <a href={post.path}>
-          {post.meta.title}
-        </a>
-      </h2>
-      Published {post.meta.date}
-    </li>
+    <ArticleWideCard
+      coverImage={post.meta.coverImage}
+      path={post.path}
+      title={post.meta.title}
+      description={post.meta.description}
+      category={post.meta.category}
+      />
   {/each}
 </ul>
 
@@ -34,7 +36,6 @@
     align-items: center;
 
     /* Resizing properties */
-    width: 1200px;
     max-width: 90vw
   }
 </style>
