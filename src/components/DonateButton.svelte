@@ -1,5 +1,12 @@
 <script>
 
+// Thanks ChatGPT for this function! I didn't want to write it myself :)
+function changeButtonText(event) {
+  // Get the button element from the event
+  const button = event.target;
+
+  button.textContent = 'Come on. You\'re really gonna donate to a bathroom website?? Foolish.';
+}
 
 </script>
 
@@ -7,7 +14,7 @@
   <p>This site cost $0.02/day to keep running.</p>
   <p>It is only through donations from passionate readers like you that we can keep reviewing shitters.</p>
   <p>Please. For just the cost of a cup of coffee in the Kendall, Cambridge, MA area, we can keep this site running for one more year and a leap day.</p>
-  <button>Donate $7.32 Today</button>
+  <button on:click={changeButtonText}>Donate $7.32 Today</button>
 </div>
 
 <style>
