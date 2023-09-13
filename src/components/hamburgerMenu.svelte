@@ -3,7 +3,6 @@
 
   function closemenu() {
     const checkbox = document.getElementById('checktoggle')
-    console.log()
     checkbox.checked = false;
   }
 </script>

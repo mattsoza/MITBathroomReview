@@ -4,7 +4,6 @@
   import ArticleWideCard from '../../components/articleWideCard.svelte';
 
   export let data;
-  console.log(data.posts)
 </script>
   
 <!-- HTML -->
