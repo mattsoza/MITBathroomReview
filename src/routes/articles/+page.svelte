@@ -8,19 +8,21 @@
 </script>
   
 <!-- HTML -->
-<h2>You want articles? We got 'em.</h2> 
+<main>
+  <h2>You want articles? We got 'em.</h2> 
 
-<ul>
-  {#each data.posts as post}
-    <ArticleWideCard
-      coverImage={post.meta.coverImage}
-      path={post.path}
-      title={post.meta.title}
-      description={post.meta.description}
-      category={post.meta.category}
-      />
-  {/each}
-</ul>
+  <ul>
+    {#each data.posts as post}
+      <ArticleWideCard
+        coverImage={post.meta.coverImage}
+        path={post.path}
+        title={post.meta.title}
+        description={post.meta.description}
+        category={post.meta.category}
+        />
+    {/each}
+  </ul>
+</main>
 
 <!-- Styling -->
 <style>

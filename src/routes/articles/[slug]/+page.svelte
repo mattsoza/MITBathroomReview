@@ -19,12 +19,13 @@
   }
 </script>
 
-<article>
-  <h1>{ title }</h1>
-  <p>Published: {dateFormat(date)}</p>
-  <svelte:component this={content} />
-</article>
-
+<main>
+  <article>
+    <h1>{ title }</h1>
+    <p>Published: {dateFormat(date)}</p>
+    <svelte:component this={content} />
+  </article>
+</main>
 
 <style>
   h1 {

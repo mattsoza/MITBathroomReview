@@ -7,9 +7,7 @@ import Bathroomheader from "../components/bathroomheader.svelte";
 
 <!-- HTML of nav and stylesheet -->
 <Bathroomheader />
-<main>
-  <slot />
-</main>
+<slot />
 
 
 
@@ -24,14 +22,12 @@ import Bathroomheader from "../components/bathroomheader.svelte";
   background-color: #FFFDF9;
 }
 
-main {
+:global(main) {
   display: flex;
   flex-direction: column;
   align-items: center;
 	padding-left: 5vw;
   padding-right: 5vw;
-
-  background: linear-gradient(184deg, #FFFDF9 0 62%, #262626 62%);
 }
 
 
