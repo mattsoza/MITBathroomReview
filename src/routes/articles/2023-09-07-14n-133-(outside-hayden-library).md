@@ -9,7 +9,7 @@ tags: []
 categories: []
 ---
 <script context="module">
-  import image from '../../assets/coveredtoilet.png'
+  import image from '../../assets/coveredToilet.png'
 
   metadata.coverImage = image
 </script>
