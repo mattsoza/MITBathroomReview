@@ -34,7 +34,7 @@
     -->
     <ul id="menu">
       {#each menuItems as item}
-      <a on:click={closemenu} href={item.toLowerCase()}><li>{item}</li></a>
+      <a on:click={closemenu} href={"/" + item.toLowerCase()}><li>{item}</li></a>
       {/each}
     </ul>
   </div>
