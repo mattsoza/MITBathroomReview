@@ -28,13 +28,13 @@
 
   /* The category */
   h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #3581BA;
   }
 
   /* The headline */
   h2 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   /* Description */
@@ -54,6 +54,29 @@
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+  }
+
+  @media(max-width: 800px) {
+    img {
+      width: calc(44.44% - 20px);
+    }
+
+    div.innerTextContainer {
+      padding-left: 15px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 600px) {
+    h2 {
+      line-height: 1.5rem;
+    }
   }
 
 </style>

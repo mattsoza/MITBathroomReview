@@ -51,12 +51,25 @@
     <a id="home" href="/"><img id="logo" src={logo} alt="MIT bathroom review" /></a>
     <h3>Democracy Dies in Doo-Doo</h3>
   </div>
-  <nav class='desktop'>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Articles" href="/articles">Articles</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="About" href="/about">About</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Map" href="/map">Map</a>
-    <a class='navlink' on:mouseover={shuffleAdjacentLetters} on:mouseout={fixOut} id="Contact" href="/contact">Contact</a>
-  </nav>
+  <div class='navbarcolor desktop'>
+    <nav class='desktop'>
+      <a class='navlink' 
+      on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
+      on:mouseout={fixOut} on:blur={fixOut} id="Articles" href="/articles">Articles</a>
+      
+      <a class='navlink' 
+      on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
+      on:mouseout={fixOut} on:blur={fixOut} id="About" href="/about">About</a>
+      
+      <a class='navlink' 
+      on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
+      on:mouseout={fixOut} on:blur={fixOut} id="Map" href="/map">Map</a>
+      
+      <a class='navlink' 
+      on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
+      on:mouseout={fixOut} on:blur={fixOut} id="Contact" href="/contact">Contact</a>
+    </nav>
+  </div>
 </header>
 <main>
   <slot />
@@ -83,12 +96,26 @@ header {
   padding-bottom: 20px;
 }
 
-nav {
+.navbarcolor {
+  background-color: #BFBAB0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
   margin-top: 20px;
   margin-bottom: 20px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav {
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 500px
 }
 
 img {
@@ -97,7 +124,7 @@ img {
 }
 
 a.navlink {
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin-right: 2em;
   text-decoration: none;
   color: black;

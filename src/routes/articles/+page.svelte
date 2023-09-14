@@ -39,4 +39,10 @@
     /* Resizing properties */
     max-width: 90vw
   }
+
+  @media(max-width: 500px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 </style>
