@@ -7,6 +7,8 @@
   import toiletPNG from '../assets/ToiletPNG.png'
   import plungerPNG from '../assets/PlungerPNG.png'
 
+  export let data;
+
   let textBoxHeight = 0;
   let featuredHeight = 0;
 </script>
@@ -16,7 +18,13 @@
 <img class="plungerBackground" src="{plungerPNG}" alt="" style='--featured-height: {featuredHeight}px'>
 <main style='--slant-height: {textBoxHeight}px'>
   <div class='frontpageflex' bind:offsetHeight={featuredHeight}>
-    <Featuredstory />
+    <Featuredstory 
+      headline={data.post.meta.title}
+      subheadline={data.post.meta.description}
+      path={data.post.path}
+      img={data.post.meta.coverImage}
+
+      />
     <DonateButton />
   </div>
 

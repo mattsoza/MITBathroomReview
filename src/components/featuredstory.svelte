@@ -1,21 +1,18 @@
 <!-- Scripting -->
 <script>
   // Props! :)
-  export let headline="How the bougeiose rewrote bathroom history"
-  export let subheadline="A deep dive into the machinations of the machine"
-  export let author="Matthew 'The Web Dev' Soza"
-  export let img = ''
-  export let alt='a covered toilet'
-
-  // export headline;
-
-  import image from '../assets/coveredToilet.png'
+  export let headline=""
+  export let subheadline=""
+  export let author=""
+  export let img = '../assets/logo.svg'
+  export let path = '';
+  export let alt=''
 </script>
 
 <!-- HTML -->
-<a href='articles/{headline}'>
+<a href='{path}'>
   <!-- Placed a parent div because of weird CSS sizing rules I couldn't easily get around -->
-  <img src="{image}" id ='featuredImage' alt="a covered toilet">
+  <img src="{img}" id ='featuredImage' alt="a covered toilet">
   <div class='textcontainer'>
     <p>Featured</p>
     <h1>{headline}</h1>

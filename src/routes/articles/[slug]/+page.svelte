@@ -2,6 +2,7 @@
   export let data
   const { title, date, content } = data
 
+
   function dateFormat(date) {
     /**
      * Takes a date in the format 2019-11-06T00:00:00.000Z
@@ -15,7 +16,7 @@
 
     const monthName = monthNames[Number(month)]
 
-    return monthName + " " + day + ", " + "year"
+    return monthName + " " + day + ", " + year
   }
 </script>
 
@@ -36,4 +37,8 @@
     width: min(65ch, 95vw)
   }
 
+  p.articleContent {
+    font-weight: 500;
+    font-size: 1.2em 
+  }
 </style>
