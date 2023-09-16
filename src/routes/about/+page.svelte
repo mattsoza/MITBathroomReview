@@ -13,6 +13,8 @@
   My name is Matthew Soza, and I review bathrooms on the prestigious MIT campus. Through pure serendipity I have had the chance to explore some of the best and worst restrooms at MIT, and sharing their value with fellow peers is my greatest joy. If I help just one person, all of this will have been worth it. “Anything worth doing, hurts a little.” – Mike Rowe of <i>Dirty Jobs</i><br><br>
 
   When not pissing and pooing, you can find me staring out of windows wistfully, hoping the work I do is meaningful.<br><br>
+
+  Democracy Dies in Doo-Doo<br><br>
   </p>
 </main>
 
