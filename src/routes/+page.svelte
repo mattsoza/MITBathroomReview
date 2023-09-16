@@ -4,12 +4,18 @@
   import DonateButton from "../components/DonateButton.svelte";
   import {afterUpdate, onMount} from 'svelte';
 
+  import toiletPNG from '../assets/ToiletPNG.png'
+  import plungerPNG from '../assets/PlungerPNG.png'
+
   let textBoxHeight = 0;
+  let featuredHeight = 0;
 </script>
 
 <!-- HTML -->
+<img class="toiletBackground" src="{toiletPNG}" alt="">
+<img class="plungerBackground" src="{plungerPNG}" alt="" style='--featured-height: {featuredHeight}px'>
 <main style='--slant-height: {textBoxHeight}px'>
-  <div class='frontpageflex'>
+  <div class='frontpageflex' bind:offsetHeight={featuredHeight}>
     <Featuredstory />
     <DonateButton />
   </div>
@@ -33,12 +39,39 @@ main {
   background: linear-gradient(4deg, #262626 0 calc(var(--slant-height) + 5ch + 3rem), #FFFDF9 calc(var(--slant-height) + 5ch + 3rem));
 }
 
+.toiletBackground {
+  position: absolute;
+  height: 35%;
+  opacity: 60%;
+  left: -5vw;
+  z-index: 0;
+}
+
+.plungerBackground {
+  position: absolute;
+  height: 30%;
+  opacity: 60%;
+  right: -5vw;
+  top: calc(var(--featured-height) + 90px);
+  z-index: 0;
+}
+
 .frontpageflex {
   display: flex;
+  z-index: 2;
   align-items: flex-start;
   flex-wrap: wrap;
   max-width: 1000px;
   margin-bottom: 10ch;
+}
+
+@media(max-width: 1200px) {
+  .plungerBackground {
+    visibility: hidden;
+  }
+  .toiletBackground {
+    visibility: hidden;
+  }
 }
 
 .whyReview {
