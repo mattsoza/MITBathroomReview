@@ -53,7 +53,6 @@
  * prefixes.
  */
 
-
 #menuToggle
 {
   display: block;
@@ -61,7 +60,7 @@
   top: 50px;
   left: 50px;
   
-  z-index: 1;
+  z-index: 3;
   
   -webkit-user-select: none;
   user-select: none;
