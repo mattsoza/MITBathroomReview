@@ -3,6 +3,7 @@
 
   function closemenu() {
     const checkbox = document.getElementById('checktoggle')
+    // @ts-ignore
     checkbox.checked = false;
   }
 </script>
