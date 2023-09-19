@@ -5,7 +5,7 @@
   import {afterUpdate, onMount} from 'svelte';
 
   import toiletPNG from '../assets/ToiletPNG.png'
-  import plungerPNG from '../assets/PlungerPNG.png'
+  import plungerPNG from '../assets/PlungerPNG2.png'
 
   export let data;
 
@@ -14,9 +14,11 @@
 </script>
 
 <!-- HTML -->
-<img class="toiletBackground" src="{toiletPNG}" alt="">
-<img class="plungerBackground" src="{plungerPNG}" alt="" style='--featured-height: {featuredHeight}px'>
+<!-- <img class="toiletBackground" src="{toiletPNG}" alt=""> -->
+<!-- <img class="plungerBackground" src="{plungerPNG}" alt="" style='--featured-height: {featuredHeight}px'> -->
 <main style='--slant-height: {textBoxHeight}px'>
+  <img class="toiletBackground" src="{toiletPNG}" alt="">
+  <img class="plungerBackground" src="{plungerPNG}" alt="" style='--featured-height: {featuredHeight}px'>
   <div class='frontpageflex' bind:offsetHeight={featuredHeight}>
     <Featuredstory 
       headline={data.post.meta.title}
@@ -49,7 +51,7 @@ main {
 
 .toiletBackground {
   position: absolute;
-  height: 35%;
+  height: 18em;
   opacity: 60%;
   left: -5vw;
   z-index: 0;
@@ -57,11 +59,12 @@ main {
 
 .plungerBackground {
   position: absolute;
-  height: 30%;
+  height: 16em;
   opacity: 60%;
-  right: -5vw;
+  right: -0vw;
   top: calc(var(--featured-height) + 90px);
   z-index: 0;
+  overflow: hidden;
 }
 
 .frontpageflex {
@@ -75,10 +78,10 @@ main {
 
 @media(max-width: 1200px) {
   .plungerBackground {
-    visibility: hidden;
+    display: none;
   }
   .toiletBackground {
-    visibility: hidden;
+    display: none;
   }
 }
 
