@@ -26,6 +26,10 @@
     display: flex;
   }
 
+  a:last-child {
+    border-bottom: none;
+  }
+
   /* The category */
   h3 {
     font-size: 1.2rem;

@@ -1,6 +1,7 @@
 <!-- Scripting :) -->
 <script>
-import Bathroomheader from "../components/bathroomheader.svelte";
+	import BathroomFooter from "../components/bathroomFooter.svelte";
+  import Bathroomheader from "../components/bathroomheader.svelte";
 </script>
 
 
@@ -8,7 +9,7 @@ import Bathroomheader from "../components/bathroomheader.svelte";
 <!-- HTML of nav and stylesheet -->
 <Bathroomheader />
 <slot />
-
+<BathroomFooter />
 
 
 <!-- Styling -->
