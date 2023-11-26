@@ -41,10 +41,10 @@
     evt.target.innerHTML = evt.target.id;
   }
 </script>
-  
+
 <!-- HTML of nav and stylesheet -->
 <div id='hamburgerMenu'>
-  <HamburgerMenu menuItems={['Articles', 'About', 'Map', 'Contact']}/>
+  <HamburgerMenu menuItems={['Articles', 'About', 'Jobs', 'Contact']}/>
 </div>
 <header>
   <div class='logo'>
@@ -67,7 +67,7 @@
 
       <a class='navlink' 
       on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
-      on:mouseout={fixOut} on:blur={fixOut} id="Jobs" href="/apply">Jobs</a>
+      on:mouseout={fixOut} on:blur={fixOut} id="Jobs" href="/jobs">Jobs</a>
       
       <a class='navlink' 
       on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
