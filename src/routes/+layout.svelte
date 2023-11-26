@@ -21,6 +21,16 @@
 	margin: 0;
 
   background-color: #FFFDF9;
+  min-height: 100vh;
+}
+
+:global(html, body) { 
+  min-height: 100vh;
+}
+
+:global(div > footer) {
+  position: sticky;
+  top: 100vh;
 }
 
 :global(main) {

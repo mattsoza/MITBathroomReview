@@ -9,10 +9,11 @@ tags: []
 categories: []
 ---
 <script context="module">
+  import coverimage from '../../assets/articles/14N-133/ToiletAngle169.jpg'
   import image from '../../assets/articles/14N-133/ToiletAngle.jpg'
   import sink from '../../assets/articles/14N-133/SinkTopdown.jpg'
 
-  metadata.coverImage = image
+  metadata.coverImage = coverimage
 </script>
 
 <style>

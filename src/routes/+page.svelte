@@ -87,7 +87,7 @@ main {
 
 .whyReview {
   max-width: 1000px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 h1 {

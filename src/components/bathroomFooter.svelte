@@ -10,6 +10,7 @@
 
 <style>
   footer {
+    margin-top: auto;
     background-color: #262626;
     height: 10ch;
 
