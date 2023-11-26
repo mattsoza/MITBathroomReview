@@ -61,9 +61,13 @@
       on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
       on:mouseout={fixOut} on:blur={fixOut} id="About" href="/about">About</a>
       
+      <!-- <a class='navlink' 
+      on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
+      on:mouseout={fixOut} on:blur={fixOut} id="Map" href="/map">AMap</a> -->
+
       <a class='navlink' 
       on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
-      on:mouseout={fixOut} on:blur={fixOut} id="Map" href="/map">Map</a>
+      on:mouseout={fixOut} on:blur={fixOut} id="Jobs" href="/apply">Jobs</a>
       
       <a class='navlink' 
       on:mouseover={shuffleAdjacentLetters} on:focus={shuffleAdjacentLetters}
