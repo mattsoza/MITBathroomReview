@@ -14,7 +14,7 @@
     const month = date.slice(5, 7)
     const day = date.slice(8, 10)
 
-    const monthName = monthNames[Number(month)]
+    const monthName = monthNames[Number(month) - 1]
 
     return monthName + " " + day + ", " + year
   }
