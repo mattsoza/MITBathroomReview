@@ -9,7 +9,7 @@ category: Breaking news, review
   import coverImage from '../../assets/articles/9-504/BathroomCover.jpg'
 
   import bathroomSign from '../../assets/articles/9-504/Bathroom.jpg'
-  import screenshot from '../../assets/articles/9-504/screenshot9504.png'
+  import screenshot from '../../assets/articles/9-504/Screenshot9504.png'
 
   metadata.coverImage = coverImage
 </script>
