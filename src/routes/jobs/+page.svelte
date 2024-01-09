@@ -1,5 +1,5 @@
 <script>
-import image from '../../assets/AboutPage.png'
+import image from '../../assets/JobsPage.jpg'
 
 </script>
 
