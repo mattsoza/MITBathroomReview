@@ -43,13 +43,13 @@ category: Breaking news, review
   <figcaption><b>This shot's so pretty</b></figcaption>
 </figure>
 
-Not every bathroom I review is going to be worth reviewing, and yet I do it anyway. That’s how committed I am to not only the bit, but also to you, you sexy beast of a reader. (By the way MIT Bathroom Review is looking for donations). But I’ll review this one quick: it’s nice, it’s private, only one light works, there’s an extra soap dispenser because I assume the regular soap isn’t something you want to sniff deeply, it feels modern, and it’s gender-neutral.
+Not every bathroom I review is going to be worth reviewing, and yet I do it anyway. That’s how committed I am not only to the bit, but also to you, you sexy beast of a reader. (By the way MIT Bathroom Review is looking for donations). But I’ll review this one quick: it’s nice, it’s private, only one light works, there’s an extra soap dispenser because I assume the regular soap isn’t something you want to sniff deeply, it feels modern, and it’s gender-neutral.
 
-*Stop right there, cutie pie*, I’m sure you’re thinking to yourself. *Gender-neutral?? But it doesn’t come up as gender-neutral when I look it up on the MIT Restroom Directory!* Yeah, exactly, that’s my point. And please don’t call me cutie-pie. I know you meant it all in good fun, but I really don’t think that this is an appropriate venue to do that. I am a journalist first and foremost, not your 5’7” bisexual Mexican twink to pine after.
+*Stop right there, cutie pie*, I’m sure you’re thinking to yourself. *Gender-neutral?? But it doesn’t come up as gender-neutral when I look it up on the MIT Restroom Directory!* Yeah, exactly, that’s my point. And please don’t call me cutie-pie. I know you meant it all in good fun, but I really don’t think that this is an appropriate venue to do that. I am a journalist first and foremost. If you have a problem with that, fill out the contact form.
 
 <figure>
   <img src={screenshot} alt="Screenshot of MIT Bathroom Directory bathroom 9-504 being mislabeled as a men's restroom.">
   <figcaption><b>The smoking gun.</b></figcaption>
 </figure>
 
-ANYWAY, this bathroom shows up incorrectly on the MIT Bathroom Directory. It shows up not as gender-neutral, but as a men’s bathroom. I had gone to it because I was interested to see if the men’s bathroom had a good view of the sunset or dome (it doesn’t) up here. What I thought would be a cozy place to shit was instead a bastion of bathroom-labeling malpractice. I call on MIT Restroom Directory to clear up the misinformation proliferating their site, and I encourage you, the students, to find other examples of mislabeled bathrooms. Democracy Dies In Doo-Doo.
+ANYWAY, this bathroom shows up incorrectly on the MIT Bathroom Directory. It shows up not as gender-neutral, but as a men’s bathroom. I had gone to it because I was interested to see if the men’s bathroom had a good view of the sunset or dome up here (it doesn’t). What I thought would be a cozy place to drop the cocoa syrup was instead a bastion of bathroom-labeling malpractice. I call on MIT Restroom Directory to clear up the misinformation proliferating their site, and I encourage you, the students, to find other examples of mislabeled bathrooms. Democracy Dies In Doo-Doo.
