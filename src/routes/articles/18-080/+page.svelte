@@ -41,7 +41,7 @@
 
     <p>Next, though the 70’s aesthetic may have been wiped away, you can’t never forget your roots. A single ceiling panel directly above the toilet is a draw-dropping office beige, and sitting on the toilet, I smiled up for about three minutes straight at it.</p>
 
-    <p>The sink is the final thing we need to talk about, and boy are there things to talk about. Look at this sink. Normal, right? “Of course!” you think to yourself. “That’s just a normal Aqualyn(c) drop-in sink from American Standard! What’s the problem!” you guffaw.</p>
+    <p>The sink is the final thing we need to talk about, and boy are there things to talk about. Look at this sink. Normal, right? “Of course!” you think to yourself. “That’s just a normal <a href="https://www.americanstandard-us.com/Countertop-Bathroom-Sinks/Aqualyn-Drop-In-Sink-With-4-Inch-Centerset/WHITE-0476028020">Aqualyn(c) drop-in sink from American Standard!</a> What’s the problem!” you guffaw.</p>
 
     <figure>
       <img src={sink} alt="A normal image of a bathroom. Nothing seems amiss.">
@@ -98,6 +98,16 @@
   }
   figcaption {
     text-align: center;
+  }
+  
+  a {
+    color: blue;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:visited {
+    color: purple;
   }
 
 </style>
