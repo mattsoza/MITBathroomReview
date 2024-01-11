@@ -24,7 +24,7 @@
 
     <p>A bathroom is a reflection of the time it was built. Today, I visited bathroom 18-080, a restroom constructed in the 1970s.</p>
 
-    <p>Now, faithful reader, I will not jerk you around: Building 18 was remodeled in 2003. I unfortunately did not know this before spending many hours on the design of this webpage, and if you’ve ever heard of the sunk-cost fallacy, something important to know is that I am a victim of it and will not stop. So let’s press on and feign ignorance about the redesign*.</p>
+    <p>Now, faithful reader, I will not jerk you around: Building 18 was remodeled in 2003. I unfortunately did not know this before spending many hours on the design of this webpage, and if you’ve ever heard of the sunk-cost fallacy, something important to know is that I am a victim of it and will not stop. So let’s press on and feign ignorance about the redesign<a href='#footnote1' id='inlineFootnote1'>*</a>.</p>
 
     <figure>
       <img src={chair1} alt="Black folding chair in corner of restroom.">
@@ -62,7 +62,7 @@
 
     <p>VERIDCT: 2/5 plungers</p>
 
-    <p>* While it is entirely possible that the restroom was not changed during the redesign, I believe it was based on cross-checking the design of this restroom with designs of similar restrooms modeled in the 2000s.</p>
+    <p><a id='footnote1' href='#inlineFootnote1'>*</a> While it is entirely possible that the restroom was not changed during the redesign, I believe it was based on cross-checking the design of this restroom with designs of similar restrooms modeled in the 2000s.</p>
   </article>
 </main>
 

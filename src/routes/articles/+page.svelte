@@ -15,7 +15,7 @@
     {#each data.posts as post}
       <ArticleWideCard
         coverImage={post.meta.coverImage}
-        path={post.meta.redirect ? post.meta.newpath : post.path}
+        path={post.path}
         title={post.meta.title}
         description={post.meta.description}
         category={post.meta.category}
