@@ -32,7 +32,7 @@
 
   <div bind:offsetHeight={textBoxHeight} class='whyReview'>
     <h1 id='whyReviewH1'>Why Review Bathrooms?</h1>
-    <p id='whyReviewP'>Because if we don’t, nobody will. It’s one of the first places you go in the morning and last places you go at night. It’s where you go when you need to cry, it’s where you go when you need to get away. A safe moment here can be the difference between the best day ever and a doo-doo day. Without bathrooms, we are not civilized, and without civility, we are animals.</p>
+    <p id='whyReview'>Because if we don’t, nobody will. It’s one of the first places you go in the morning and last places you go at night. It’s where you go when you need to cry, it’s where you go when you need to get away. A safe moment here can be the difference between the best day ever and a doo-doo day. Without bathrooms, we are not civilized, and without civility, we are animals.</p>
     <p>Democracy Dies in Doo-Doo</p>
   </div>
 </main>
@@ -88,6 +88,7 @@ main {
 .whyReview {
   max-width: 1000px;
   margin-bottom: 1rem;
+  font-size: 1.2em;
 }
 
 h1 {
