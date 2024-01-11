@@ -22,7 +22,7 @@ function changeButtonText(event) {
     flex: 3;
     display: flex;
     flex-direction: column;
-    background-color: #88B0BF;
+    background-color: #5090a7;
     padding: 1em;
     min-height: 0;
   }
