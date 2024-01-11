@@ -33,7 +33,7 @@ a > div > h1 {
 }
 
 a:hover > div > h1 {
-  color: #88B0BF;
+  color: #5090a7;
   transition: .2s;
 }
 
