@@ -3,8 +3,6 @@
 	import BathroomFooter from "/src/components/bathroomFooter.svelte";
   import Bathroomheader from "/src/components/RetroComponents/bathroomheaderRetro.svelte";
 
-  const documentHeight = document.documentElement.scrollHeight;
-
   let bodyHeight = 0;
 
   const getBodyHeight = (body) => {

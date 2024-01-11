@@ -2,6 +2,7 @@
 <script>
 	import { each } from 'svelte/internal';
   import ArticleWideCard from '/src/components/articleWideCard.svelte';
+	import { redirect } from '@sveltejs/kit';
 
   export let data;
 </script>
@@ -14,7 +15,7 @@
     {#each data.posts as post}
       <ArticleWideCard
         coverImage={post.meta.coverImage}
-        path={post.path}
+        path={post.meta.redirect ? post.meta.newpath : post.path}
         title={post.meta.title}
         description={post.meta.description}
         category={post.meta.category}
