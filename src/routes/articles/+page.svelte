@@ -1,7 +1,7 @@
 <!-- Scripting -->
 <script>
 	import { each } from 'svelte/internal';
-  import ArticleWideCard from '../../components/articleWideCard.svelte';
+  import ArticleWideCard from '/src/components/articleWideCard.svelte';
 
   export let data;
 </script>

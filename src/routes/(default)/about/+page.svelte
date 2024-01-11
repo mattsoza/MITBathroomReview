@@ -1,6 +1,6 @@
 <!-- Scripting -->
 <script>
-  import mirrorSelfie from '../../assets/MatthewSelfie.jpg'
+  import mirrorSelfie from '/src/assets/MatthewSelfie.jpg'
 </script>
 
 <!-- HTML -->

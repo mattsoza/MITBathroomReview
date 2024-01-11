@@ -1,5 +1,5 @@
 // src/routes/api/posts/mostrecent/+server.js
-import { fetchMarkdownPosts } from '../../../../lib/utils'
+import { fetchMarkdownPosts } from '/src/lib/utils'
 import { json } from '@sveltejs/kit'
 // This is the WORST way to do since it literally grabs ALL the posts and then picks the most recent
 // Please update this soon and do not let it stick around for too long...

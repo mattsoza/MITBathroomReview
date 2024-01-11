@@ -1,7 +1,7 @@
 <!-- Scripting :) -->
 <script>
-	import BathroomFooter from "../components/bathroomFooter.svelte";
-  import Bathroomheader from "../components/bathroomheader.svelte";
+	import BathroomFooter from "/src/components/bathroomFooter.svelte";
+  import Bathroomheader from "/src/components/bathroomheader.svelte";
 </script>
 
 

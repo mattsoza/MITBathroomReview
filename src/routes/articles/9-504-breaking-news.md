@@ -6,10 +6,10 @@ date: 2023-11-29T02:50:26.673Z
 category: Breaking news, review
 ---
 <script context="module">
-  import coverImage from '../../assets/articles/9-504/BathroomCover.jpg'
+  import coverImage from '/src/assets/articles/9-504/BathroomCover.jpg'
 
-  import bathroomSign from '../../assets/articles/9-504/Bathroom.jpg'
-  import screenshot from '../../assets/articles/9-504/Screenshot9504.png'
+  import bathroomSign from '/src/assets/articles/9-504/Bathroom.jpg'
+  import screenshot from '/src/assets/articles/9-504/Screenshot9504.png'
 
   metadata.coverImage = coverImage
 </script>

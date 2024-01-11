@@ -1,11 +1,11 @@
 <!-- Scripting -->
 <script>
-  import Featuredstory from "../components/featuredstory.svelte";
-  import DonateButton from "../components/DonateButton.svelte";
+  import Featuredstory from "/src/components/featuredstory.svelte";
+  import DonateButton from "/src/components/DonateButton.svelte";
   import {afterUpdate, onMount} from 'svelte';
 
-  import toiletPNG from '../assets/ToiletPNG.png'
-  import plungerPNG from '../assets/PlungerPNG2.png'
+  import toiletPNG from '/src/assets/ToiletPNG.png'
+  import plungerPNG from '/src/assets/PlungerPNG2.png'
 
   export let data;
 
